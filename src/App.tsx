@@ -2,7 +2,7 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Hero } from "./components/Hero";
-
+import "./index.css";
 //Import components
 
 export function App() {
