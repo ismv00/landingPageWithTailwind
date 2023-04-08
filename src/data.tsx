@@ -13,6 +13,24 @@ import Feature1BgImg from "../src/assets/img/features/feature1_bg.png";
 import Feature2BgImg from "../src/assets/img/features/feature2_bg.png";
 import Feature3BgImg from "../src/assets/img/features/feature3_bg.png";
 import Feature4BgImg from "../src/assets/img/features/feature4_bg.png";
+export const navigationData = [
+  {
+    name: "Deliver",
+    href: "#",
+  },
+  {
+    name: "About",
+    href: "#",
+  },
+  {
+    name: "Features",
+    href: "#",
+  },
+  {
+    name: "Signup",
+    href: "#",
+  },
+];
 
 export const heroData = {
   title: "Order Products Faster Easier",
@@ -28,3 +46,70 @@ export const aboutData = {
   subtitle:
     "We are a company dedicated to the distribution of products by delivery to your home or to the place where you are.",
 };
+
+export const featureData = {
+  title: "Some Services We Offer",
+  subtitle:
+    "With our app you can view the route of your order, from our local headquarter",
+  list: [
+    {
+      image: Feature1Img,
+      bgImage: Feature1BgImg,
+      title: "Find your Product",
+      description: "We offer sale of products through the Internet",
+      linkText: "Learn more",
+      delay: "400",
+    },
+    {
+      image: Feature2Img,
+      bgImage: Feature2BgImg,
+      title: "Find your Product",
+      description: "We offer sale of products through the Internet",
+      linkText: "Learn more",
+      delay: "400",
+    },
+    {
+      image: Feature3Img,
+      bgImage: Feature3BgImg,
+      title: "Print Out",
+      description:
+        "Print out service gives you convenience if someday you need print data",
+      linkText: "Learn more",
+      delay: "1000",
+    },
+    {
+      image: Feature4Img,
+      bgImage: Feature4BgImg,
+      title: "Product Received",
+      description: "In our app you can see the delay time of your order...",
+      linkText: "Learn more",
+      delay: "1300",
+    },
+  ],
+};
+export const testimonialsData = [
+  {
+    image: Avatar1Img,
+    name: "Serena",
+    web: "rena.com",
+    message:
+      "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
+    delay: "300",
+  },
+  {
+    image: Avatar2Img,
+    name: "Natalia",
+    web: "nataliya.com",
+    message:
+      "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
+    delay: "600",
+  },
+  {
+    image: Avatar3Img,
+    name: "Vebin",
+    web: "vebin.com",
+    message:
+      "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
+    delay: "900",
+  },
+];
