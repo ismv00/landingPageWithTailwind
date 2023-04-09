@@ -1,3 +1,7 @@
+import { footerData } from "../data";
+
+import { Copyright } from "../components/Copyright";
+
 export function Footer() {
-  return <div>Teste</div>;
+  return <footer>Footer</footer>;
 }
