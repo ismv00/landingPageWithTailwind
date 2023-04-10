@@ -17,73 +17,74 @@ import { FaGithub, FaInstagram, FaYoutube } from "react-icons/fa";
 import { BsChatDotsFill } from "react-icons/bs";
 export const navigationData = [
   {
-    name: "Deliver",
+    name: "Entrega",
     href: "#",
   },
   {
-    name: "About",
+    name: "Sobre",
     href: "#",
   },
   {
-    name: "Features",
+    name: "Serviços",
     href: "#",
   },
   {
-    name: "Signup",
+    name: "Inscreva-se",
     href: "#",
   },
 ];
 
 export const heroData = {
-  title: "Order Products Faster Easier",
+  title: "Solicitar produtos ficou mais rápido e fácil",
   subtitle:
-    "Order your favorites foods at any time and we will deliver them right to where you are",
-  btnText: "Get Started",
+    "Peça suas comidas favoritas a qualquer momento e nós as entregaremos onde você estiver",
+  btnText: "Vamos começar",
   image: HeroImage,
 };
 
 export const aboutData = {
   image: AboutImg,
-  title: "Find Out A Little More About Us",
+  title: "Conheça um pouco mais sobre nós",
   subtitle:
-    "We are a company dedicated to the distribution of products by delivery to your home or to the place where you are.",
+    "Somos uma empresa focada na distribuição de produtos por entrega em sua casa ou no local onde você se encontre.",
 };
 
 export const featureData = {
-  title: "Some Services We Offer",
+  title: "Alguns dos serviços que oferecemos",
   subtitle:
-    "With our app you can view the route of your order, from our local headquarter",
+    "Com nosso app você pode rastrear seu pedido desde a saída da empresa.",
   list: [
     {
       image: Feature1Img,
       bgImage: Feature1BgImg,
-      title: "Find your Product",
-      description: "We offer sale of products through the Internet",
-      linkText: "Learn more",
+      title: "Encontre seu produto",
+      description: "Oferecemos a venda de produtos pela internet",
+      linkText: "Saiba mais",
       delay: "400",
     },
     {
       image: Feature2Img,
       bgImage: Feature2BgImg,
-      title: "Find your Product",
-      description: "We offer sale of products through the Internet",
-      linkText: "Learn more",
+      title: "Encontre seu produto",
+      description: "Oferecemos a venda de produtos pela internet",
+      linkText: "Saiba mais",
       delay: "400",
     },
     {
       image: Feature3Img,
       bgImage: Feature3BgImg,
-      title: "Print Out",
+      title: "Visualize",
       description:
-        "Print out service gives you convenience if someday you need print data",
-      linkText: "Learn more",
+        "Oferecemos o serviço de impressão dos seus dados caso algum dia precise.",
+      linkText: "Saiba mais",
       delay: "1000",
     },
     {
       image: Feature4Img,
       bgImage: Feature4BgImg,
-      title: "Product Received",
-      description: "In our app you can see the delay time of your order...",
+      title: "Produto Recebido",
+      description:
+        "No seu app você pode ver o tempo de entrega dos seus pedidos...",
       linkText: "Learn more",
       delay: "1300",
     },
@@ -117,54 +118,54 @@ export const testimonialsData = [
 ];
 
 export const ctaData = {
-  title: "Contact Us from Here",
-  subtitle: "Get limited 1 week free try our features!",
-  btnText1: "Learn more",
-  btnText2: "Request Demo",
+  title: "Entre em contato por aqui.",
+  subtitle: "Oferecemos 1 semana grátis para testar nossos serviços.",
+  btnText1: "Saiba mais",
+  btnText2: "Solicite um orçamento",
 };
 
 export const footerData = {
   logo: LogoV2,
-  address: "Product Texas, 234 Bokki Avenue Street BMW 99388",
-  email: "info@producttexas.project",
-  phone: "1-232-7788 (Main)",
+  address: "Campo Grande, Mato Grosso do Sul",
+  email: "ismv00@icloud.com",
+  phone: "1-222-3333 (Principal)",
   list1: [
     {
-      name: "Profile",
+      name: "Perfil",
       href: "#",
     },
     {
-      name: "Features",
+      name: "Serviços",
       href: "#",
     },
     {
-      name: "Careers",
+      name: "Nossa história",
       href: "#",
     },
     {
-      name: "DW News",
+      name: "Notícias",
       href: "#",
     },
   ],
   list2: [
     {
-      name: "Support",
+      name: "Suporte",
       href: "#",
     },
     {
-      name: "Sign Up",
+      name: "Inscrever-se",
       href: "#",
     },
     {
-      name: "Guide",
+      name: "Guia",
       href: "#",
     },
     {
-      name: "Reports",
+      name: "Feedbacks",
       href: "#",
     },
     {
-      name: "Q & A",
+      name: "Perguntas e Respostas",
       href: "#",
     },
   ],
@@ -185,6 +186,6 @@ export const footerData = {
 };
 
 export const copyrightData = {
-  text: "© Product Texas, 2022. All rights reserved. Company Registration Number: 09833888.",
+  text: "© ismv00, 2022. Todos os direitos reservados. Registro da empresa número: 09833888.",
   icon: <BsChatDotsFill />,
 };

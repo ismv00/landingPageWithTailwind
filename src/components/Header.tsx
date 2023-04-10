@@ -42,7 +42,7 @@ export function Header() {
 
           {/* button  */}
           <button className="btn btn-quaternary flex items-center gap-x-[20px] group">
-            Request Demo{" "}
+            Faça um orçamento{" "}
             <BsArrowRight className="text-2xl text-accent-primary group-hover:text-white transition" />
           </button>
 
