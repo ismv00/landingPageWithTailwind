@@ -93,26 +93,26 @@ export const featureData = {
 export const testimonialsData = [
   {
     image: Avatar1Img,
-    name: "Serena",
-    web: "rena.com",
+    name: "Flavia",
+    web: "Flavia.com",
     message:
-      "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
+      "Eu amo usar os serviços de entrega dessa empresa! Eles são sempre confiáveis e rápidos, o que me ajuda a receber meus produtos com segurança e no prazo. Obrigado(a) por oferecer um serviço tão excepcional!",
     delay: "300",
   },
   {
     image: Avatar2Img,
-    name: "Natalia",
-    web: "nataliya.com",
+    name: "Clarice",
+    web: "clarice.com",
     message:
-      "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
+      "Eu tenho usado esta empresa para entregas por um tempo agora e eu sempre fico impressionado com a qualidade do serviço. Seus entregadores são simpáticos e atenciosos, e o rastreamento de pacotes é muito útil. Eu recomendo sua empresa para qualquer pessoa que precise de uma entrega confiável e eficiente!",
     delay: "600",
   },
   {
     image: Avatar3Img,
-    name: "Vebin",
-    web: "vebin.com",
+    name: "Rafael",
+    web: "rafael.com",
     message:
-      "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
+      "Sua empresa de entregas é incrível! Eu já usei muitas outras empresas no passado, mas nenhuma delas se compara à sua. Vocês são rápidos, eficientes e sempre entregam meus pacotes em perfeitas condições. Eu não poderia pedir um serviço melhor. Obrigado(a) por tudo que você faz!",
     delay: "900",
   },
 ];
