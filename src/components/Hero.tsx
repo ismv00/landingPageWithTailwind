@@ -40,7 +40,7 @@ export function Hero() {
           </div>
           {/* Imags  */}
           <div
-            className="xl:absolute xl:-right-12 xl:bottom-16"
+            className="xl:absolute xl:-right-2 xl:bottom-16"
             data-aos="fade-down"
             data-aos-delay="700"
           >

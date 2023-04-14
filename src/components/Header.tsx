@@ -2,6 +2,7 @@ import { useState } from "react";
 
 // import components
 import Logo from "../assets/img/logo.png";
+import LogoClariart from "../assets/img/logoClariart.png";
 import { Nav } from "./Nav";
 import { NavMobile } from "./NavMobile";
 
@@ -23,7 +24,11 @@ export function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-x-[120px]">
             <a href="#">
-              <img src={Logo} alt="" />
+              <img
+                className="rounded-full w-[180px]"
+                src={LogoClariart}
+                alt=""
+              />
             </a>
             {/* nav initially hidden - Only show on large screnn */}
             <div className="hidden lg:flex">

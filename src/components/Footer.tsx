@@ -23,7 +23,7 @@ export function Footer() {
           <div className="flex flex-1 flex-col gap-y-4 xl:flex-row justify-between">
             {/* List 1 */}
             <div>
-              <div className="font-extrabold text-primary mb-8">About</div>
+              <div className="font-extrabold text-primary mb-8">Sobre</div>
               <ul className="flex flex-col gap-y-4">
                 {list1.map((item, index) => {
                   return (
@@ -38,7 +38,7 @@ export function Footer() {
             </div>
             {/* List 2 */}
             <div>
-              <div className="font-extrabold text-primary mb-8">Help</div>
+              <div className="font-extrabold text-primary mb-8">Ajuda</div>
               <ul className="flex flex-col gap-y-4">
                 {list2.map((item, index) => {
                   return (
@@ -53,7 +53,7 @@ export function Footer() {
             </div>
             <div>
               <div className="font-extrabold text-primary mb-8 ">
-                Social Media
+                Redes Sociais
               </div>
               <ul className="flex gap-y-4 gap-x-4 justify-center">
                 {socialList.map((item, index) => {

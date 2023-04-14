@@ -9,6 +9,8 @@ import Avatar2Img from "../src/assets/img/testimonials/avatar2.png";
 import Avatar3Img from "../src/assets/img/testimonials/avatar3.png";
 import LogoV2 from "../src/assets/img/logo-v2.png";
 import HeroImage from "../src/assets/img/hero-img.png";
+import Principal from "../src/assets/img/principal.png";
+import Booking from "../src/assets/img/booking.svg";
 import Feature1BgImg from "../src/assets/img/features/feature1_bg.png";
 import Feature2BgImg from "../src/assets/img/features/feature2_bg.png";
 import Feature3BgImg from "../src/assets/img/features/feature3_bg.png";
@@ -35,10 +37,10 @@ export const navigationData = [
 ];
 
 export const heroData = {
-  title: "Solicitar produtos ficou mais rápido e fácil",
+  title: "Desperte a sua criatividade com a Clariart.",
   subtitle:
-    "Peça suas comidas favoritas a qualquer momento e nós as entregaremos onde você estiver",
-  btnText: "Vamos começar",
+    "Personalize os seus produtos e eternize sua marca no coração de cada cliente.",
+  btnText: "Vamos começar?",
   image: HeroImage,
 };
 
@@ -46,36 +48,36 @@ export const aboutData = {
   image: AboutImg,
   title: "Conheça um pouco mais sobre nós",
   subtitle:
-    "Somos uma empresa focada na distribuição de produtos por entrega em sua casa ou no local onde você se encontre.",
+    "A Clariart é uma papelaria personalizada que oferece produtos únicos e sob medida para atender às suas necessidades criativas.",
 };
 
 export const featureData = {
   title: "Alguns dos serviços que oferecemos",
   subtitle:
-    "Com nosso app você pode rastrear seu pedido desde a saída da empresa.",
+    "Através das nossas redes sociais você consegue entrar em contato direto conosco e solicitar seu orçamento.",
   list: [
     {
       image: Feature1Img,
       bgImage: Feature1BgImg,
       title: "Encontre seu produto",
-      description: "Oferecemos a venda de produtos pela internet",
+      description: "Solicite nosso catálogo e veja nossa variedade de opções.",
       linkText: "Saiba mais",
       delay: "400",
     },
     {
       image: Feature2Img,
       bgImage: Feature2BgImg,
-      title: "Encontre seu produto",
-      description: "Oferecemos a venda de produtos pela internet",
+      title: "Diversas opções de pagamento",
+      description: "Faça seu pagamento através de PIX ou Cartão de Crédito",
       linkText: "Saiba mais",
       delay: "400",
     },
     {
       image: Feature3Img,
       bgImage: Feature3BgImg,
-      title: "Visualize",
+      title: "Entrega",
       description:
-        "Oferecemos o serviço de impressão dos seus dados caso algum dia precise.",
+        "Despachamos para todo Brasil com as melhores condições de frete.",
       linkText: "Saiba mais",
       delay: "1000",
     },
@@ -83,8 +85,7 @@ export const featureData = {
       image: Feature4Img,
       bgImage: Feature4BgImg,
       title: "Produto Recebido",
-      description:
-        "No seu app você pode ver o tempo de entrega dos seus pedidos...",
+      description: "Acompanhe a entrega do seu produto pelo rastreamento.",
       linkText: "Learn more",
       delay: "1300",
     },
@@ -96,7 +97,7 @@ export const testimonialsData = [
     name: "Flavia",
     web: "Flavia.com",
     message:
-      "Eu amo usar os serviços de entrega dessa empresa! Eles são sempre confiáveis e rápidos, o que me ajuda a receber meus produtos com segurança e no prazo. Obrigado(a) por oferecer um serviço tão excepcional!",
+      "Fiquei extremamente satisfeita com a qualidade dos produtos personalizados da Clariart. Eles superaram minhas expectativas em relação à beleza e durabilidade. Além disso, a entrega foi muito rápida e eficiente, sem nenhum problema.",
     delay: "300",
   },
   {
@@ -104,7 +105,7 @@ export const testimonialsData = [
     name: "Clarice",
     web: "clarice.com",
     message:
-      "Eu tenho usado esta empresa para entregas por um tempo agora e eu sempre fico impressionado com a qualidade do serviço. Seus entregadores são simpáticos e atenciosos, e o rastreamento de pacotes é muito útil. Eu recomendo sua empresa para qualquer pessoa que precise de uma entrega confiável e eficiente!",
+      "Estou impressionado com o atendimento excepcional da Clariart. Desde o momento em que entrei em contato para fazer meu pedido até o momento em que recebi o produto final, tudo foi perfeito. Eles se certificaram de que eu estava completamente satisfeito com o design personalizado e a qualidade do produto antes de enviá-lo, e a entrega foi feita no prazo estipulado.",
     delay: "600",
   },
   {
@@ -112,7 +113,7 @@ export const testimonialsData = [
     name: "Rafael",
     web: "rafael.com",
     message:
-      "Sua empresa de entregas é incrível! Eu já usei muitas outras empresas no passado, mas nenhuma delas se compara à sua. Vocês são rápidos, eficientes e sempre entregam meus pacotes em perfeitas condições. Eu não poderia pedir um serviço melhor. Obrigado(a) por tudo que você faz!",
+      "A Clariart realmente entende a importância da personalização dos produtos para os clientes. Os produtos que encomendei foram feitos exatamente de acordo com as minhas especificações, e a equipe da empresa foi muito prestativa em ajudar-me a escolher as melhores opções para o meu projeto. A entrega também foi muito rápida e segura.",
     delay: "900",
   },
 ];
