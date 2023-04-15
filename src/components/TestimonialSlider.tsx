@@ -20,6 +20,17 @@ export function TestimonialSlider() {
       pagination={{
         clickable: true,
       }}
+      breakpoints={{
+        640: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      }}
       modules={[Pagination]}
       className="mySwiper"
     >
@@ -30,7 +41,7 @@ export function TestimonialSlider() {
           // slide
           <SwiperSlide
             key={index}
-            className="flex-1 bg-white rounded-[20px] border border-accent-primary xl:max-w-[645px] max-h-[340px] pt-[20px] px-[18px] xl:px-[50px] pb-[50px] flex items-start gap-x-[20px] shadow-xl overflow-hidden break-all sm:max-w-[500px]"
+            className=" bg-white rounded-[20px] border border-accent-primary xl:max-w-[645px] max-h-[340px] pt-[20px] px-[18px] xl:px-[50px] pb-[50px] flex items-start gap-x-[20px] shadow-xl overflow-hidden break-all "
           >
             {/* avatar image */}
             <img src={image} alt="" className="my-2" />
