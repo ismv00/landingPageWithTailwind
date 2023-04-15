@@ -3,12 +3,14 @@
 }
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-  width: 50%;
+  width: 100%;
+  align-items: center;
 }
 .swiper-pagination-bullet {
   background-color: white;
   opacity: 1;
+  align-items: center;
 }
 .swiper-pagination-bullet-active {
-  background-color: #f063b8 !important;
+  background-color: #59321b !important;
 }
