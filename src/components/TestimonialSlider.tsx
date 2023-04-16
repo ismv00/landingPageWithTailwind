@@ -44,7 +44,7 @@ export function TestimonialSlider() {
             className=" bg-white rounded-[20px] border border-accent-primary xl:max-w-[645px] max-h-[340px] pt-[20px] px-[18px] xl:px-[50px] pb-[50px] flex items-start gap-x-[20px] shadow-xl overflow-hidden break-all "
           >
             {/* avatar image */}
-            <img src={image} alt="" className="my-2" />
+            <img src={image} alt="" className="my-2 rounded-full w-20" />
             {/* text */}
             <div>
               <div className="text-lg text-primary font-bold">{name}</div>

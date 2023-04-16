@@ -7,6 +7,9 @@ import Feature4Img from "../src/assets/img/features/feature4.png";
 import Avatar1Img from "../src/assets/img/testimonials/avatar1.png";
 import Avatar2Img from "../src/assets/img/testimonials/avatar2.png";
 import Avatar3Img from "../src/assets/img/testimonials/avatar3.png";
+import AvatarIgor from "../src/assets/img/testimonials/avatarIgor.jpeg";
+import AvatarFlavia from "../src/assets/img/testimonials/avatarFlavia.jpg";
+import AvatarClarice from "../src/assets/img/testimonials/avatarClarice.jpg";
 import LogoV2 from "../src/assets/img/logo-v2.png";
 import HeroImage from "../src/assets/img/hero-img.png";
 import Principal from "../src/assets/img/principal.png";
@@ -106,15 +109,15 @@ export const featureData = {
 };
 export const testimonialsData = [
   {
-    image: Avatar1Img,
+    image: AvatarFlavia,
     name: "Flavia",
-    web: "Flavia.com",
+    web: "https://www.instagram.com/flaviavilharroel/",
     message:
       "Fiquei extremamente satisfeita com a qualidade dos produtos personalizados da Clariart. Eles superaram minhas expectativas em relação à beleza e durabilidade. Além disso, a entrega foi muito rápida e eficiente, sem nenhum problema.",
     delay: "300",
   },
   {
-    image: Avatar2Img,
+    image: AvatarClarice,
     name: "Clarice",
     web: "clarice.com",
     message:
@@ -122,9 +125,9 @@ export const testimonialsData = [
     delay: "600",
   },
   {
-    image: Avatar3Img,
-    name: "Rafael",
-    web: "rafael.com",
+    image: AvatarIgor,
+    name: "Igor",
+    web: "https://www.instagram.com/euigoorr_/",
     message:
       "A Clariart realmente entende a importância da personalização dos produtos para os clientes. Os produtos que encomendei foram feitos exatamente de acordo com as minhas especificações, e a equipe da empresa foi muito prestativa em ajudar-me a escolher as melhores opções para o meu projeto. A entrega também foi muito rápida e segura.",
     delay: "900",
