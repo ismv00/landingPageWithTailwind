@@ -9,9 +9,9 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row text-center xl:text-left gap-y-12">
           <div className="w-[45%] mx-auto flex flex-col items-center xl:items-start">
-            <a href="">
+            {/* <a href="">
               <img src={logo} alt="" />
-            </a>
+            </a> */}
             <div className="max-w-[260px] mb-5 text-primary font-bold">
               {address}
             </div>
@@ -20,7 +20,7 @@ export function Footer() {
           </div>
 
           {/* List */}
-          <div className="flex flex-1 flex-col gap-y-4 xl:flex-row justify-between">
+          <div className="flex flex-1 flex-col gap-y-6 xl:flex-row justify-between">
             {/* List 1 */}
             <div>
               <div className="font-extrabold text-primary mb-8">Sobre</div>
@@ -37,7 +37,7 @@ export function Footer() {
               </ul>
             </div>
             {/* List 2 */}
-            <div>
+            {/* <div>
               <div className="font-extrabold text-primary mb-8">Ajuda</div>
               <ul className="flex flex-col gap-y-4">
                 {list2.map((item, index) => {
@@ -50,7 +50,7 @@ export function Footer() {
                   );
                 })}
               </ul>
-            </div>
+            </div> */}
             <div>
               <div className="font-extrabold text-primary mb-8 ">
                 Redes Sociais
@@ -62,7 +62,11 @@ export function Footer() {
                       className="w-12 h-12 bg-primary/10 flex justify-center items-center rounded-full cursor-pointer hover:bg-accent-primary transition-all"
                       key={index}
                     >
-                      <a className="text-white text-xl" href={item.href}>
+                      <a
+                        className="text-white text-xl"
+                        href={item.href}
+                        target="_blank"
+                      >
                         {item.icon}
                       </a>
                     </li>

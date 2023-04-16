@@ -15,30 +15,37 @@ import Feature1BgImg from "../src/assets/img/features/feature1_bg.png";
 import Feature2BgImg from "../src/assets/img/features/feature2_bg.png";
 import Feature3BgImg from "../src/assets/img/features/feature3_bg.png";
 import Feature4BgImg from "../src/assets/img/features/feature4_bg.png";
-import { FaGithub, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { BsChatDotsFill } from "react-icons/bs";
 
 export const messageWhatsapp = {
   message:
     "Olá, estou entrando em contato porque gostaria de fazer um orçamento de produtos que vi no seu site.",
+  phoneNumber: "5567993520731",
 };
+
+export function sendWhatsapp() {
+  const phoneNumber = messageWhatsapp.phoneNumber;
+  const apiURL = `https://wa.me/${phoneNumber}?text=${messageWhatsapp.message}`;
+  window.open(apiURL, "_blank");
+}
 
 export const navigationData = [
   {
-    name: "Entrega",
-    href: "#",
-  },
-  {
     name: "Sobre",
-    href: "#",
+    href: "#about",
   },
   {
     name: "Serviços",
-    href: "#",
+    href: "#services",
   },
   {
-    name: "Inscreva-se",
-    href: "#",
+    name: "Clientes",
+    href: "#testimonials",
+  },
+  {
+    name: "Entre em contato",
+    href: "#contact",
   },
 ];
 
@@ -92,7 +99,7 @@ export const featureData = {
       bgImage: Feature4BgImg,
       title: "Produto Recebido",
       description: "Acompanhe a entrega do seu produto pelo rastreamento.",
-      linkText: "Learn more",
+      linkText: "Saiba mais",
       delay: "1300",
     },
   ],
@@ -134,8 +141,8 @@ export const ctaData = {
 export const footerData = {
   logo: LogoV2,
   address: "Campo Grande, Mato Grosso do Sul",
-  email: "ismv00@icloud.com",
-  phone: "1-222-3333 (Principal)",
+  email: "clariart.ofc@gmail.com",
+  phone: " (67) 99352-0731 (Principal)",
   list1: [
     {
       name: "Perfil",
@@ -179,20 +186,20 @@ export const footerData = {
   socialList: [
     {
       icon: <FaYoutube />,
-      href: "#",
+      href: "https://www.youtube.com/channel/UCYtfkzIe1oDnYZgdWVJQlrw",
     },
     {
       icon: <FaInstagram />,
-      href: "#",
+      href: "https://www.instagram.com/clariart.ofc/",
     },
     {
-      icon: <FaGithub />,
-      href: "#",
+      icon: <FaWhatsapp />,
+      href: "https://wa.me/5567993520731",
     },
   ],
 };
 
 export const copyrightData = {
   text: "© ismv00, 2022. Todos os direitos reservados. Registro da empresa número: 09833888.",
-  icon: <BsChatDotsFill />,
+  icon: <BsChatDotsFill onClick={sendWhatsapp} />,
 };
