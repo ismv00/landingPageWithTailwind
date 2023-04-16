@@ -6,12 +6,20 @@ import LogoClariart from "../assets/img/logoClariart.png";
 import { Nav } from "./Nav";
 import { NavMobile } from "./NavMobile";
 
+// Import data
+import { messageWhatsapp } from "../data";
 //import icons
 import { FaBars } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
 
 export function Header() {
   const [navMobile, setNavMobile] = useState(false);
+
+  function sendWhatsapp() {
+    const phoneNumber = "5567993520731";
+    const apiURL = `https://wa.me/${phoneNumber}?text=${messageWhatsapp.message}`;
+    window.open(apiURL, "_blank");
+  }
 
   return (
     <header
@@ -46,7 +54,10 @@ export function Header() {
           </div>
 
           {/* button  */}
-          <button className="btn btn-quaternary flex items-center gap-x-[20px] group">
+          <button
+            className="btn btn-quaternary flex items-center gap-x-[20px] group"
+            onClick={sendWhatsapp}
+          >
             Faça um orçamento{" "}
             <BsArrowRight className="text-2xl text-accent-primary group-hover:text-white transition" />
           </button>

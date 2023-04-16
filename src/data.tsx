@@ -17,6 +17,12 @@ import Feature3BgImg from "../src/assets/img/features/feature3_bg.png";
 import Feature4BgImg from "../src/assets/img/features/feature4_bg.png";
 import { FaGithub, FaInstagram, FaYoutube } from "react-icons/fa";
 import { BsChatDotsFill } from "react-icons/bs";
+
+export const messageWhatsapp = {
+  message:
+    "Olá, estou entrando em contato porque gostaria de fazer um orçamento de produtos que vi no seu site.",
+};
+
 export const navigationData = [
   {
     name: "Entrega",
