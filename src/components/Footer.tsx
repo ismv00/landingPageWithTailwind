@@ -3,7 +3,7 @@ import { footerData } from "../data";
 import { Copyright } from "../components/Copyright";
 
 export function Footer() {
-  const { logo, address, email, phone, list1, list2, socialList } = footerData;
+  const { address, email, phone, list1, socialList } = footerData;
   return (
     <footer data-aos="face-up">
       <div className="container mx-auto">
@@ -36,21 +36,6 @@ export function Footer() {
                 })}
               </ul>
             </div>
-            {/* List 2 */}
-            {/* <div>
-              <div className="font-extrabold text-primary mb-8">Ajuda</div>
-              <ul className="flex flex-col gap-y-4">
-                {list2.map((item, index) => {
-                  return (
-                    <li key={index}>
-                      <a className="text-primary" href={item.href}>
-                        {item.name}
-                      </a>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div> */}
             <div>
               <div className="font-extrabold text-primary mb-8 ">
                 Redes Sociais
