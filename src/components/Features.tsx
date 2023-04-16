@@ -8,7 +8,7 @@ export function Features() {
   //features content
   const { title, subtitle, list } = featureData;
   return (
-    <section className="my-[70px] xl:my-[150px]">
+    <section className="my-[70px] xl:my-[150px]" id="services">
       <div className="container mx-auto">
         {/**Text */}
         <div className="text-center">

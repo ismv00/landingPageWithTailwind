@@ -3,7 +3,7 @@ import { TestimonialSlider } from "./TestimonialSlider";
 
 export function Testimonials() {
   return (
-    <section className="relative">
+    <section className="relative" id="testimonials">
       <div className="container-fluid mx-auto">
         <div
           className="bg-accent-primary min-h-[600px]"
