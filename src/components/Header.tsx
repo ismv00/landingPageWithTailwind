@@ -6,7 +6,7 @@ import { Nav } from "./Nav";
 import { NavMobile } from "./NavMobile";
 
 // Import data
-import { sendWhatsapp } from "../data";
+import { headerData } from "../data";
 //import icons
 import { FaBars } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
@@ -47,13 +47,14 @@ export function Header() {
           </div>
 
           {/* button  */}
-          <button
+          <a
+            href={headerData.href}
             className="btn btn-quaternary flex items-center gap-x-[20px] group"
-            onClick={sendWhatsapp}
+            target="_blank"
           >
             Faça um orçamento{" "}
             <BsArrowRight className="text-2xl text-accent-primary group-hover:text-white transition" />
-          </button>
+          </a>
 
           {/* Nav Trigger Button - Only shoes on mobile views */}
           <div

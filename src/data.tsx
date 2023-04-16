@@ -4,16 +4,11 @@ import Feature1Img from "../src/assets/img/features/feature1.png";
 import Feature2Img from "../src/assets/img/features/feature2.png";
 import Feature3Img from "../src/assets/img/features/feature3.png";
 import Feature4Img from "../src/assets/img/features/feature4.png";
-import Avatar1Img from "../src/assets/img/testimonials/avatar1.png";
-import Avatar2Img from "../src/assets/img/testimonials/avatar2.png";
-import Avatar3Img from "../src/assets/img/testimonials/avatar3.png";
 import AvatarIgor from "../src/assets/img/testimonials/avatarIgor.jpeg";
 import AvatarFlavia from "../src/assets/img/testimonials/avatarFlavia.jpg";
 import AvatarClarice from "../src/assets/img/testimonials/avatarClarice.jpg";
 import LogoV2 from "../src/assets/img/logo-v2.png";
 import HeroImage from "../src/assets/img/hero-img.png";
-import Principal from "../src/assets/img/principal.png";
-import Booking from "../src/assets/img/booking.svg";
 import Feature1BgImg from "../src/assets/img/features/feature1_bg.png";
 import Feature2BgImg from "../src/assets/img/features/feature2_bg.png";
 import Feature3BgImg from "../src/assets/img/features/feature3_bg.png";
@@ -58,6 +53,10 @@ export const heroData = {
     "Personalize os seus produtos e eternize sua marca no coração de cada cliente.",
   btnText: "Vamos começar?",
   image: HeroImage,
+};
+
+export const headerData = {
+  href: "https://www.instagram.com/clariart.ofc/",
 };
 
 export const aboutData = {
@@ -142,7 +141,7 @@ export const ctaData = {
 };
 
 export const footerData = {
-  logo: LogoV2,
+  // logo: LogoV2,
   address: "Campo Grande, Mato Grosso do Sul",
   email: "clariart.ofc@gmail.com",
   phone: " (67) 99352-0731 (Principal)",
@@ -153,36 +152,14 @@ export const footerData = {
     },
     {
       name: "Serviços",
-      href: "#",
+      href: "services",
     },
     {
       name: "Nossa história",
-      href: "#",
+      href: "about",
     },
     {
       name: "Notícias",
-      href: "#",
-    },
-  ],
-  list2: [
-    {
-      name: "Suporte",
-      href: "#",
-    },
-    {
-      name: "Inscrever-se",
-      href: "#",
-    },
-    {
-      name: "Guia",
-      href: "#",
-    },
-    {
-      name: "Feedbacks",
-      href: "#",
-    },
-    {
-      name: "Perguntas e Respostas",
       href: "#",
     },
   ],
